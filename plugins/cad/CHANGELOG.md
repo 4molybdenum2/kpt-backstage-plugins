@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.3.0](https://github.com/GoogleContainerTools/kpt-backstage-plugins/compare/backstage-plugin-cad-v0.2.0...backstage-plugin-cad-v0.3.0) (2022-07-22)
+
+
+### Features
+
+* add apply replacements function automatically ([#56](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/56)) ([1ebc9b8](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/1ebc9b835afaaf9594c063c0f01c09c50c88d15a))
+* add cluster role and cluster role binding resource viewers ([#71](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/71)) ([e0ae65e](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/e0ae65ec5637e83ba1d40dcf3eaee8d1ed47bcce))
+* add persistent volume claim resource viewer ([#73](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/73)) ([38d54ef](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/38d54ef51200c4d2ecc92707a2058783b10aba42))
+* add service resource viewer ([#74](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/74)) ([fb8c217](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/fb8c21759bf108dbdba778a3779885a7a70913ef))
+* add tooltips to all icon buttons ([#51](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/51)) ([2758ca8](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/2758ca80db7df75b9d4ac7f27d7bcac352c9ab17))
+* allow packages to upgrade to latest blueprint ([#54](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/54)) ([b04bc3c](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/b04bc3cbd2331ab073e953aa4cef3c113d475ad5))
+* config sync is optional ([#60](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/60)) ([c4c1976](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/c4c197682a31bdbdef99e742607afd934026535f))
+* default compare revision dropdown ([#50](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/50)) ([09eafaa](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/09eafaa2c9f13d334e2612e4502c1ff1258845ad))
+* show all previous revisions in compare revision dropdown ([#47](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/47)) ([923e81d](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/923e81db307d55009cdc509503f2b38aafddd828))
+* use merge update strategy for package upgrades ([#70](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/70)) ([dd41b03](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/dd41b032a21477822857a870394411c230b200e1))
+
+
+### Bug Fixes
+
+* allow latest published blueprint to be deployed ([#63](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/63)) ([8ecf396](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/8ecf39626ce74fb6b6e222f7e1332a25e36542f7))
+* allow upstream package comparison ([#61](https://github.com/GoogleContainerTools/kpt-backstage-plugins/issues/61)) ([292b98d](https://github.com/GoogleContainerTools/kpt-backstage-plugins/commit/292b98d61790a7bb82d5ee777a3b23455db0dc6a))
+
 ## [0.2.0](https://github.com/GoogleContainerTools/kpt-backstage-plugins/compare/backstage-plugin-cad-v0.1.0...backstage-plugin-cad-v0.2.0) (2022-06-15)
 
 
